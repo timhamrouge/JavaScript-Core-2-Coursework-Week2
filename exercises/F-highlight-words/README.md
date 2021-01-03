@@ -1,6 +1,6 @@
-### Highlight Long Words
+### Highlight Words
 
-The function **highlightLongWords** takes a paragraph of words in the form of one long string:
+The function **highlightWords** takes a paragraph of words in the form of one long string:
 
 ```js
 const paragraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis massa ut sem finibus ultrices. Phasellus hendrerit placerat libero...";
@@ -12,7 +12,7 @@ It also takes an array of colour strings as it's second argument:
 const colours = ["blue", "purple", "orange"];
 ```
 
-We want to render the paragraph on the page, along with a dropdown with the different colour options in it. When we click ona word in the paragraph we want to highlight it with the colour selected in the dropdown. If 'none' is selected in the dropdown, then no highlighting should be applied to the words, or highlighting should be removed if the clicked word is already highlighted. 
+We want to render the paragraph on the page, along with a dropdown with the different colour options in it. When we click on a word in the paragraph we want to highlight it with the colour selected in the dropdown. If 'none' is selected in the dropdown, then no highlighting should be applied to the words, or highlighting should be removed if the clicked word is already highlighted. 
 
 ## Exercise
 

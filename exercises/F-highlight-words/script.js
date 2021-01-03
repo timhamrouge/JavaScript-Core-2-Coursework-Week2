@@ -1,4 +1,4 @@
-function highlightLongWords(paragraph, colours) {
+function highlightWords(paragraph, colours) {
   // Write your code here...
 }
 
@@ -6,4 +6,4 @@ const paragraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cura
 
 const colours = ['yellow', 'green', 'blue', 'none'];
 
-highlightLongWords(paragraph, colours);
+highlightWords(paragraph, colours);
