@@ -1,4 +1,4 @@
-### List of names
+### Shopping List
 
 The function **shoppingList** takes an array of strings:
 
