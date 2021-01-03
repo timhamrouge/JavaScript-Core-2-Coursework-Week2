@@ -1,4 +1,4 @@
-function exerciseOne(arrayOfPeople) {
+function listOfNames(arrayOfPeople) {
   let content = document.querySelector("#content");
 }
 
@@ -8,4 +8,4 @@ let people = [
   { name: "Boris", job: "Prime Minister" }
 ];
   
-exerciseOne(people);
+listOfNames(people);

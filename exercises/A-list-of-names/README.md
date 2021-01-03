@@ -1,6 +1,6 @@
 ### List of names
 
-The function **renderNames** takes an array of people objects:
+The function **listOfNames** takes an array of people objects:
 
 ```js
 let people = [
