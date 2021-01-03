@@ -17,9 +17,10 @@ const books = [
 ];
 ```
 
+Render the list of books on the page. Each book should have a title, author and image and a background colour that is set dependent on whether we have read the book or not. 
+
 ## Exercise
 
-* Render the list of books on the page.
 * Iterate through the list of books.
 * For each book, create a `<p>` element with the book title and author and append it to the page.
 * Use a `<ul>` and `<li>` to display the books.

@@ -13,11 +13,10 @@ const todos = [
 ];
 ```
 
+We want to render a list of todos on the page. When we click on an item we want a line-through style to be added to it to show that the todo has been completed. If we decide we haven't actually finished the todo yet, then we should be able to click it again to remove the line-through styling.
+
 ## Exercise
 
-* Render the todo list on the page.
-* When I click an item I want to add a line-through style to the item to show I've done it.
-* If I decide that I haven't actually finished the item, I should be able to click again and remove the line-through style.
 * You should use an `<ul>` for the list and `<li>` tags for the contents.
 * Each todo should have an event listener for when they are clicked.
 * The event listener should add the line-through style to the todo.

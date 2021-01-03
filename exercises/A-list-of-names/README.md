@@ -10,6 +10,8 @@ let people = [
 ];
 ```
 
+Render a list of people and their jobs on the page.
+
 ## Exercise
 
 For each object in the array:

@@ -6,11 +6,11 @@ The function **listOfColours** takes an array of colour strings:
 const colours = ["blue", "purple", "orange"];
 ```
 
+We want to render  adropdown list of colours on the page. When a colour is selected, the selection will appear on screen e.g. 'You have selected: blue'.
+The text informing the user of their selection will also change colour to match the selected colour e.g. 'You have selected: blue' will display all in blue. 'You have selected: green' will be green etc.
+
 ## Exercise
 
-* Render a dropdown list of colours on the page.
-* When a colour from the list is selected, the selection will appear on screen e.g. 'You have selected: blue'. 
-* The text informing the user of their selection will also change colour to match the selected colour e.g. 'You have selected: blue' will display all in blue. 'You have selected: green' will be green etc.
 * Create a `<select>` element.
 * Create a `<p>` element.
 * Iterate through the array of colours.
