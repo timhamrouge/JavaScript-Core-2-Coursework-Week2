@@ -19,6 +19,14 @@ More details for the implementation of this challenge can be found in `script.js
 
 Fork this repository and then open in VSCode. To view the website, open index.html in a browser.
 
+## Example Solution
+
+A basic example of this can website can be found here
+
+https://chrisowen101.github.io/ToDoListSolution/
+
+This covers only the basic tasks, not the advanced tasks.
+
 ## Instructions
 
 The `populateTodoList()` function should iterate over the list of todos that we are given at the start, it should create a <li> for the todo along with some other stuff that you can find in index.html and below.
