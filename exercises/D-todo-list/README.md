@@ -1,4 +1,4 @@
-### Todo List
+# Todo List
 
 The function **todoList** takes an array of todo objects:
 

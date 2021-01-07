@@ -1,4 +1,4 @@
-### List of colours
+# List of colours
 
 The function **listOfColours** takes an array of colour strings:
 
@@ -6,7 +6,7 @@ The function **listOfColours** takes an array of colour strings:
 const colours = ["blue", "purple", "orange"];
 ```
 
-We want to render  adropdown list of colours on the page. When a colour is selected, the selection will appear on screen e.g. 'You have selected: blue'.
+We want to render a dropdown list of colours on the page. When a colour is selected, the selection will appear on screen e.g. 'You have selected: blue'.
 The text informing the user of their selection will also change colour to match the selected colour e.g. 'You have selected: blue' will display all in blue. 'You have selected: green' will be green etc.
 
 ## Exercise
