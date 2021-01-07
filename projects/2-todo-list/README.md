@@ -19,6 +19,25 @@ More details for the implementation of this challenge can be found in `script.js
 
 Fork this repository and then open in VSCode. To view the website, open index.html in a browser.
 
+## Instructions
+
+The `populateTodoList()` function should iterate over the list of todos that we are given at the start, it should create a <li> for the todo along with some other stuff that you can find in index.html and below.
+
+The items in the todo list are currently hard-coded into the HTML, refactor the code so that this function creates them and adds the following functionality to them:
+
+Each todo should have this HTML inside it:
+
+```html
+<span class="badge bg-primary rounded-pill">
+  <i class="fa fa-check" aria-hidden="true"></i>
+  <i class="fa fa-trash" aria-hidden="true"></i>
+</span>
+```
+
+The first `<i>` tag needs an event listener that applies a line-through text-decoration styling to the text of the todo. It should remove the styling if it is clicked again.
+
+The second `<i>` tag needs an event listener that deletes the parent `<li>` element from the `<ul>`.
+
 ## Advanced Challenge
 
 ### Mass delete of completed ToDos
