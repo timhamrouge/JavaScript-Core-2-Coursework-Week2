@@ -4,6 +4,12 @@ function populateTodoList(todos) {
 }
 
 // These are the same todos that currently display in the HTML
+// You will want to remove the ones in the current HTML after you have created them using JavaScript
+let todos = [
+  { task: "Wash the dishes", completed: false },
+  { task: "Do the shopping", completed: false },
+];
+
 populateTodoList(todos);
 
 // This function will take the value of the input field and add it as a new todo to the bottom of the todo list. These new todos will need the completed and delete buttons adding like normal.
